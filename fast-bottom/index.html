@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Mail</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+    <h1>Envie um email para qualquer lugar do mundo</h1>
+    <form method="get">
+        <label>Nome:</label><input type="text" name="nome" id="nome" placeholder="digite seu nome">
+        <label>seu Email:</label><input type="email" name="email" id="email" placeholder="digite seu email"><br>
+        <label>Email do destinatário:</label><input type="email" name="email" id="email1" placeholder="digite o email do destinatário"><br>
+        <label>Menssagem:</label><textarea name="mensege" id="mensege" cols="80" rows="15" placeholder="escreva sua mensagem..."></textarea><br>
+        <button type="reset">Limpar</button><button class="enviar" onclick='alert("veu email foi enviado com sucesso ✅")' type="reset">Enviar</button>
+    </form>
+</body>
+</html>
